@@ -2,7 +2,7 @@
 
 ```
 @article{tkachenko2023dns
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
+  author    = {Tkachenko, Nataliya and Simon, Frieder and Griffiths, Ryan-Rhys and Nedopil Wang, Christoph},
   title     = {Can Generative AI Help to Design Green Financing Instruments: An Example of Debt-for-Nature Swaps},
   journal   = {Frontiers in Artificial Intelligence},
   year      = {2023},
