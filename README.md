@@ -1,14 +1,11 @@
-# Nerfies
+# Generative AI for Design of Debt-for-Nature Swaps
 
-This is the repository that contains source code for the [Debts-for-Nature Swaps LLM]([https://ai4greenfinance.github.io/DNS/]).
-
-If you find Nerfies useful for your work please cite:
 ```
-@article{park2021nerfies
+@article{tkachenko2023dns
   author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+  title     = {Can Generative AI Help to Design Green Financing Instruments: An Example of Debt-for-Nature Swaps},
+  journal   = {Frontiers in Artificial Intelligence},
+  year      = {2023},
 }
 ```
 
