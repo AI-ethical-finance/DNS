@@ -1,4 +1,4 @@
-# Generative AI for Design of Debt-for-Nature Swaps
+# Designing Debt-for-Nature Swaps with Generative AI
 
 ```
 @article{tkachenko2023dns
