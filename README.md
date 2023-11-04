@@ -3,7 +3,7 @@
 ```
 @article{tkachenko2023dns
   author    = {Tkachenko, Nataliya and Simon, Frieder and Griffiths, Ryan-Rhys and Nedopil Wang, Christoph},
-  title     = {Can Generative AI Help to Design Green Financing Instruments: An Example of Debt-for-Nature Swaps},
+  title     = {Designing Green Financing Instruments with Generative AI: An Example of Debt-for-Nature Swaps},
   journal   = {Frontiers in Artificial Intelligence},
   year      = {2023},
 }
