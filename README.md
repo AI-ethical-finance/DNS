@@ -1,5 +1,7 @@
 # Designing Debt-for-Nature Swaps with Generative AI
+
 <img src="./static/images/logo_dns.png" alt="rag" class="center" style="width:300px;height:300px;">
+
 ```
 @article{tkachenko2023dns
   author    = {Tkachenko, Nataliya and Simon, Frieder and Griffiths, Ryan-Rhys and Nedopil Wang, Christoph},
