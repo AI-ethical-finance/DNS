@@ -8,13 +8,6 @@ body {
     color: #000;
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 .link-block a {
     margin-top: 5px;
     margin-bottom: 5px;
