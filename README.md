@@ -1,4 +1,4 @@
-# Evaluating Uptake Trends of Debt-for-nature Swaps with Generative AI
+# Evaluating Uptake Trends of Debt-for-nature Swaps with GenAI
 <p align="center">
 <img src="./static/images/logo_dns.png" alt="rag" class="center" style="width:300px;height:300px;">
 </p>
