@@ -14,7 +14,7 @@
     const world = Globe()
       (document.getElementById('globeViz'))
       .globeImageUrl('./img/earth-day.jpg')
-      .backgroundColor(()=>'rgba(0,0,0,0)')
+      .backgroundColor('rgba(0,0,0,0)')
       .pointOfView({ altitude: 4 }, 5000)
       .polygonCapColor(feat => 'rgba(200, 0, 0, 0.6)')
       .polygonSideColor(() => 'rgba(0, 100, 0, 0.05)')
