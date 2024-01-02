@@ -1,12 +1,12 @@
-# Evaluating Uptake Trends of Debt-for-nature Swaps with GenAI
+# Utilization and Missed Opportunities in Debt-for-Nature Swaps with Generative AI
 <p align="center">
 <img src="./static/images/logo_dns.png" alt="rag" class="center" style="width:300px;height:300px;">
 </p>
 
 ```
 @article{tkachenko2023dns
-  author    = {Tkachenko, Nataliya and Simon, Frieder and Griffiths, Ryan-Rhys and Nedopil Wang, Christoph},
-  title     = {Evaluating Uptake Trends of Debt-for-nature Swaps with Generative AI},
+  author    = {Tkachenko, Nataliya and Simon, Frieder and Griffiths, Ryan-Rhys and Nedopil, Christoph},
+  title     = {Utilization and Missed Opportunities in Debt-for-Nature Swaps with Generative AI},
   journal   = {Frontiers in Artificial Intelligence},
   year      = {2023},
 }
