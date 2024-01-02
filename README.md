@@ -4,11 +4,11 @@
 </p>
 
 ```
-@article{tkachenko2023dns
+@article{tkachenko2024dns
   author    = {Tkachenko, Nataliya and Simon, Frieder and Griffiths, Ryan-Rhys and Nedopil, Christoph},
   title     = {Utilization and Missed Opportunities in Debt-for-Nature Swaps with Generative AI},
   journal   = {Frontiers in Artificial Intelligence},
-  year      = {2023},
+  year      = {2024},
 }
 ```
 
