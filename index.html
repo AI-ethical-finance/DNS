@@ -167,6 +167,38 @@
           We deploy a prompt-augmented GPT-4 model to distill comprehensive datasets on the global application of debt-for-nature swaps (DNS), a pivotal financial tool for environmental conservation. Our analysis includes 195 nations and identifies 21 countries that have not yet used DNS before as prime candidates for DNS. A significant proportion demonstrates consistent commitments to conservation finance (0.86 accuracy as compared to historical swaps records). Conversely, 35 countries previously active in DNS before 2010 have since been identified as unsuitable. Notably, Argentina, grappling with soaring inflation and a substantial sovereign debt crisis, and Poland, which has achieved economic stability and gained access to alternative EU conservation funds, exemplify the shifting suitability landscape. The study's outcomes illuminate the fragility of DNS as a conservation strategy amid economic and political volatility.
           </p>
         </div>
+                  <div id="globeViz"></div>
+
+  <script>
+    const world = Globe()
+      (document.getElementById('globeViz'))
+      .globeImageUrl('./img/Whole_wd_12000.jpg')
+      .backgroundColor('rgba(0,0,0,0)')
+      .width(1567)
+      .height(900)
+      .pointOfView({ altitude: 4 }, 5000)
+      .polygonCapColor(feat => 'rgba(0, 200, 0, 0.4)')
+      .polygonSideColor(() => 'rgba(0, 100, 0, 0.05)')
+      .labelColor(() => 'black')
+      .labelSize(1)
+      .polygonLabel(({ properties: d }) => `
+          <b>${d.ADMIN} (${d.ISO_A2})</b> <br />
+          Population: <i>${Math.round(+d.POP_EST / 1e4) / 1e2}M</i>
+        `);
+
+    // Auto-rotate
+    world.controls().autoRotate = true;
+    world.controls().autoRotateSpeed = 1.8;
+
+    fetch('./data/ne_110m_admin_0_countries.geojson').then(res => res.json()).then(countries => {
+      world.polygonsData(countries.features.filter(d => d.properties.ISO_A2 !== 'AQ'));
+
+      setTimeout(() => world
+        .polygonsTransitionDuration(4000)
+        .polygonAltitude(feat => Math.max(0.1, Math.sqrt(+feat.properties.POP_EST) * 7e-5))
+      , 3000);
+    });
+  </script>
       </div>
     </div>
     <!--/ Abstract. -->
